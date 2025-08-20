@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hra"
+version = "0.1.0"
+description = "Hybrid Resonant Algorithm scaffold (каркас)"
+readme = "README.md"
+authors = [{name = "Oleg"}]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yourname/hybrid-resonant-algorithm"
+Issues = "https://github.com/yourname/hybrid-resonant-algorithm/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
